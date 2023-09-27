@@ -75,22 +75,47 @@ body {
 
     height: 400px;
     width: 100%;
-    object-fit: cover;
-    object-position: center center;
+    background-size: cover;
+    object-fit: fill;
 
 }
 
 /*------------------------------------special paddings/margins/text*/
 
-#about {
+h1 {
 
-    font-size: 20px;
     text-align: center;
-    padding: 20px;
 }
 
-.about-us-text {
+#about {
 
-    font-family: 'Hugs and Kisses' !important;
+    height: 400px;
+    background-color: #777777;
+}
+
+#right-about {
+
+    width: 50%;
+    float: right;
+    text-align: center;
+    margin-left: 10%;
+    color: white;
+
+
+}
+
+#left-about {
+
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-right: 10%;
+    color: white;
+}
+
+.container {
+
+    display: flex;
+    padding: 20px;
 
 }
