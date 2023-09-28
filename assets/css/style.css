@@ -116,6 +116,72 @@ h1 {
 .container {
 
     display: flex;
-    padding: 20px;
+}
 
+
+/*------------------------------------Services*/
+
+#services-main {
+
+    background-color: white;
+}
+
+#services-container {
+
+    display: flex;
+    height: 300px;
+
+}
+
+#left-nails {
+
+
+    width: 33.33%;
+
+
+
+}
+
+#opening-times {
+
+    width: 33.33%;
+
+}
+
+#right-brows {
+
+    width: 33.33%;
+
+}
+
+table {
+
+
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+
+    padding: 1rem;
+    font-size: 20px;
+
+}
+
+h3 {
+
+    text-align: center;
+}
+
+/*------------------------------------Meet the team*/
+
+#meet-the-team {
+
+    height: 400px;
+}
+
+.blonde-hair {
+
+    background-position: center;
 }
