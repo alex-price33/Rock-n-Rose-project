@@ -15,7 +15,7 @@ body {
 /*----------------------colours*/
 body {
 
-    color: red;
+    color: white;
 }
 
 #menu a {
@@ -121,15 +121,23 @@ h1 {
 
 /*------------------------------------Services*/
 
+.services-heading {
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: darkslategray;
+    border-radius: 50px;
+}
+
 #services-main {
 
-    background-color: white;
+    background-color: #f30fc9;
 }
 
 #services-container {
 
     display: flex;
-    height: 300px;
+
 
 }
 
@@ -178,10 +186,73 @@ h3 {
 
 #meet-the-team {
 
-    height: 400px;
+    background-color: #777777
 }
+
+.meet-heading {
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: darkslategray;
+    border-radius: 50px;
+}
+
+.table-meet {
+
+    width: 90%;
+
+    border-radius: 50px;
+    margin-bottom: 40px;
+    background-color: #f30fc9;
+}
+
+.table-head-meet {
+
+    text-align: center;
+    font-weight: bold;
+
+
+}
+
+.table-data-meet {}
+
+.table-row-meet {}
 
 .blonde-hair {
 
-    background-position: center;
+    height: 200px;
+}
+
+.team-text {
+
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.instagram-meet {
+
+    text-align: center;
+}
+
+
+/*------------------------------------footer*/
+
+footer {
+    height: 75px;
+}
+
+.social-networks {
+    text-align: center;
+
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #f20d0d;
 }
