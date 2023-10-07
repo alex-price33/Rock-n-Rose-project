@@ -13,10 +13,7 @@ body {
 }
 
 /*----------------------colours*/
-body {
-
-    color: white
-}
+body {}
 
 #menu a {
 
@@ -80,14 +77,11 @@ h2#logo {
 
 #menu a:hover {
 
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid;
 
 }
 
-.active {
-
-    border-bottom: 1px solid white;
-}
+.active {}
 
 #hero-image img {
 
@@ -135,7 +129,7 @@ h1 {
     float: right;
     text-align: center;
     margin-left: 10%;
-    color: white;
+    background-color: #f30fc9;
 
 
 }
@@ -146,7 +140,7 @@ h1 {
     float: left;
     text-align: center;
     margin-right: 10%;
-    color: white;
+
 }
 
 .container {
@@ -166,49 +160,42 @@ h1 {
     border-radius: 50px;
 }
 
-#services-main {
 
-    background-color: #f30fc9;
+.services-container {
+
+    display: flexbox;
     padding-top: 40px;
-}
-
-#services-container {
-
-    display: flex;
-    padding-top: 40px;
-
+    display: flex-start;
 
 }
 
-#left-nails {
+.left-nails {
 
 
-    width: 33.33%;
+
     padding-bottom: 40px;
+    background-color: brown;
 
 
 
 }
 
-#opening-times {
+.right-brows {
 
-    width: 33.33%;
+    background-color: blueviolet;
+
+
 
 }
 
-#right-brows {
+.lashes {
 
-    width: 33.33%;
-
+    background-color: yellow;
 }
 
 table {
 
-
-    margin: 0 auto;
-    border-collapse: collapse;
     padding: 25px;
-
     margin-top: 40px;
 }
 
@@ -221,107 +208,62 @@ td {
 
 }
 
-h3 {
-
-    text-align: center;
-}
 
 /*------------------------------------Meet the team*/
 
+.meet-the-team-section {
 
-#meet-the-team {
-
-    background-color: #777777;
+    height: 500px;
+    width: 100%;
     padding-top: 40px;
 
 
+}
+
+.meet-the-team {
+
+    height: 100%;
+    background-color: blue;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+
 
 }
 
+.meet-laura {
 
-
-.meet-heading {
-
-    background-color: darkslategray;
+    width: 40%;
+    background-color: aliceblue;
+    padding-top: 2%;
+    justify-content: space-around;
     border-radius: 50px;
 
-}
-
-.table-meet {
-
-    width: 75%;
-    border-radius: 50px;
-    background-color: #f30fc9;
-
 
 }
 
-.table-head-meet {
+.image-container {
 
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
     text-align: center;
-    font-weight: bold;
-    font-size: 32px;
-
-}
-
-h1 {
-
-
-    padding: 10px;
-    border: 1px solid;
-    margin: 0 auto;
-    width: fit-content;
-
-}
-
-.table-data-meet {
-
-    text-align: left;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
-.table-row-meet {
-    text-align: left;
-    margin-bottom: 40px;
-    margin-top: 40px;
-}
 
-.blonde-hair {
 
-    height: 200px;
+.meet-evie {
+
+    background-color: aqua;
+    width: 40%;
+    padding-top: 2%;
+    justify-content: space-around;
     border-radius: 50px;
-    margin-bottom: 5%;
-    margin-left: 5%;
-
 
 }
 
-.team-text {
-
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
-    position: relative;
-    font-size: 20px;
-
-
-}
-
-.team-social {
-
-    display: block;
-    position: absolute;
-    bottom: 30px;
-
-
-
-}
-
-.fa-instagram {
-
-    color: white;
-}
 
 
 
@@ -403,9 +345,9 @@ span.material-icons {
         right: 1rem;
     }
 
-    /*
-    .table-container {
+    #services-main {
 
-        overflow: auto;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
