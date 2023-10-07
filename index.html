@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>RocknRose</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         type="text/css" />
@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="assets/css/style.css" rel="stylesheet" type="text/css" /> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
 </head>
 
 <body>
@@ -22,31 +24,39 @@
             <h2 id="logo">Rock&Rose</h2>
         </a>
         <nav>
-            <ul id="menu">
+
+
+            <ul class="menu" id="menu">
+
                 <li>
-                    <a href="#">Contact Us</a>
+                    <a href="#meet-the-team">Meet The Team</a>
                 </li>
                 <li>
-                    <a href="#">Meet The Team</a>
+                    <a href="#services-main">Services</a>
                 </li>
                 <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">About Us</a>
+                    <a href="#left-about">About Us</a>
                 </li>
                 <li>
                     <a class="active" href="#">Home</a>
                 </li>
+                <a class="close" href="#">
+                    <span class="material-icons">
+                        close
+                    </span>
+                </a>
             </ul>
+            <a class="hamburger" href="#menu">
+                <span class="material-icons">
+                    menu
+                </span>
+            </a>
         </nav>
     </header>
     <section>
         <div id="hero-image">
             <img src="assets/images/new-photo.png" alt="woman-with-pink-nails">
-
         </div>
-
     </section>
     <section id="about">
 
@@ -93,11 +103,12 @@
 
     </section>
     <section id="services-main">
-        <h1 class="services-heading">Services</h1>
+        <h1 class="meet-heading">Services</h1>
         <div id="services-container">
             <div id="left-nails">
                 <h3>Nails</h3>
-                <table>
+
+                <table class="table-container">
 
                     <tr>
                         <th>Service</th>
@@ -107,85 +118,105 @@
                     <tr>
                         <td>Gel</td>
                         <td></td>
-                        <td>10</td>
+                        <td>£10</td>
                     </tr>
                     <tr>
                         <td>Polish</td>
                         <td></td>
-                        <td>15</td>
+                        <td>£15</td>
                     </tr>
                     <tr>
                         <td>Scale</td>
                         <td></td>
-                        <td>20</td>
+                        <td>£20</td>
                     </tr>
                     <tr>
-                        <td>Scaleandpolish</td>
+                        <td>Full set french</td>
                         <td></td>
-                        <td>25</td>
+                        <td>£40</td>
+                    </tr>
+                    <tr>
+                        <td>shellac</td>
+                        <td></td>
+                        <td>£45</td>
                     </tr>
                 </table>
             </div>
             <div id="opening-times">
                 <h3>Opening Times</h3>
-                <table>
+                <table class="table-container">
 
                     <tr>
-                        <th>Service</th>
+                        <th>Open</th>
                         <th></th>
-                        <th>Price£</th>
-                    </tr>
-                    <td>Gel</td>
-                    <td></td>
-                    <td>10</td>
-                    <tr>
-                        <td>Polish</td>
-                        <td></td>
-                        <td>15</td>
+                        <th>Close</th>
                     </tr>
                     <tr>
-                        <td>add text</td>
+                        <td>Monday</td>
                         <td></td>
-                        <td>40</td>
+                        <td>09.00-17.00</td>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td></td>
+                        <td>09.00-17.00</td>
                     </tr>
                     <tr>
-                        <td>add text</td>
+                        <td>Wednesday</td>
                         <td></td>
-                        <td>40</td>
+                        <td>09.00-17.00</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td></td>
+                        <td>09.00-17.00</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td></td>
+                        <td>09.00-17.00</td>
                     </tr>
                 </table>
             </div>
             <div id="right-brows">
                 <h3>Brows</h3>
-                <table>
+                <table class="table-container">
                     <tr>
                         <th>Service</th>
                         <th></th>
                         <th>Price£</th>
                     </tr>
-
-                    <td>Scouse</td>
-                    <td></td>
-                    <td>10</td>
+                    <tr>
+                        <td>lvl lash lift</td>
+                        <td></td>
+                        <td>£45</td>
                     </tr>
                     <tr>
-                        <td>Scouse1</td>
+                        <td>Russian volume</td>
                         <td></td>
-                        <td>15</td>
+                        <td>£55</td>
                     </tr>
                     <tr>
-                        <td>Scouse2</td>
+                        <td>HD brows</td>
                         <td></td>
-                        <td>20</td>
+                        <td>£28</td>
                     </tr>
                     <tr>
-                        <td>Scouse3</td>
+                        <td>Eyebrow tint</td>
                         <td></td>
-                        <td>25</td>
+                        <td>£10</td>
+                    </tr>
+                    <tr>
+                        <td>Eyebrow shape</td>
+                        <td></td>
+                        <td>£15</td>
                     </tr>
                 </table>
+
+
             </div>
+
         </div>
+
     </section>
     <section id="meet-the-team">
         <h1 class="meet-heading">Meet The Team</h1>
@@ -198,15 +229,15 @@
             <tr class="table-row-meet">
                 <td class="table-data-meet"><img class="blonde-hair" src="assets/images/blonde-hair.jpg"
                         alt="woman-with-blonde-hair">
-                    <li class="team-text">Laura is owner of Rock&Rose salon and also is fully qualified in both nails
-                        and eyebrow
-                        treatments.
-                    </li>
-                    <li class="instagram-meet">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
+                    <li class="team-text">
+                        Laura is the owner of Rock&Rose and is qualified in both nail and
+                        eyebrow procedures.
+                        <p class="team-social">
+                            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i>
+                            </a>
+
+                        </p>
+
                     </li>
                 </td>
                 <td>
@@ -230,16 +261,14 @@
             <tr class="table-row-meet">
                 <td class="table-data-meet"><img class="blonde-hair" src="assets/images/brown-hair.jpg"
                         alt="woman-with-blonde-hair">
-                    <li class="team-text">Evie is the best at helping grow your natural nails long and healthy.
-                        <br> She is so talented at creative nails and the perfect French.
-                    </li><br>
+                    <li class="team-text">
+                        Evie is the best at helping grow your natural nails long and healthy.
+                        <p class="team-social"><a href="https://www.instagram.com" target="_blank"><i
+                                    class="fab fa-instagram"> </i>
+                        </p>
                     </li>
-                    <li class="instagram-meet">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
+
+
                 </td>
                 <td>
                     <li>Gel & Biab</li>
@@ -260,15 +289,14 @@
             <tr class="table-row-meet">
                 <td class="table-data-meet"><img class="blonde-hair" src="assets/images/red-hair.jpg"
                         alt="woman-with-blonde-hair">
-                    <li class="team-text">Amber is amazing at all things lashes and especially the perfect brow
+                    <li class="team-text">
+                        Amber is amazing at all things lashes and especially the perfect brow
                         lamination.
+                        <p class="team-social"><a href="https://www.instagram.com" target="_blank"><i
+                                    class="fab fa-instagram"> </i>
+                        </p>
                     </li>
-                    <li class="instagram-meet">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
+
                 </td>
                 <td>
 
@@ -285,6 +313,7 @@
 
 
 
+
     </section>
     <footer>
 
@@ -294,12 +323,11 @@
 <footer>
 
     <ul class="social-networks">
-        <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-twitter-square"> </i></li>
-        <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"> </i></li>
-        <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"> </i></li>
-        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </i></li>
+        <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-twitter-square"> </a></i></li>
+        <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"> </a></i></li>
+        <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"> </a></i></li>
+        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"> </a></i></li>
     </ul>
-</footer>
 </footer>
 
 </html>

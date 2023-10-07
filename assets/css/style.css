@@ -15,7 +15,7 @@ body {
 /*----------------------colours*/
 body {
 
-    color: white;
+    color: white
 }
 
 #menu a {
@@ -30,9 +30,20 @@ body {
 
 /*----------------------header*/
 
-#logo {
-    float: left;
-    font-size: 280%;
+
+header {
+
+
+    background-color: #f30fc9;
+    padding-left: 25px;
+
+
+}
+
+h2#logo {
+
+    font-size: 50px;
+    color: white;
 }
 
 #menu {
@@ -40,12 +51,18 @@ body {
     font-size: 90%;
     list-style-type: none;
     letter-spacing: 1px;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #logo,
 #menu {
 
     line-height: 75px;
+    font-size: 25px;
+    margin: 0 auto;
 }
 
 #menu li {
@@ -63,34 +80,53 @@ body {
 
 #menu a:hover {
 
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid white;
+
 }
 
 .active {
 
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid white;
 }
 
 #hero-image img {
 
     height: 400px;
     width: 100%;
-    background-size: cover;
-    object-fit: fill;
 
+    object-fit: cover;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
 }
+
+
+
+
+
 
 /*------------------------------------special paddings/margins/text*/
 
 h1 {
 
-    text-align: center;
+    padding: 10px;
+    border: 1px solid;
+    margin: 0 auto;
+    width: fit-content;
+    border-radius: 100px;
+    font-size: 24px;
+
+
 }
 
 #about {
 
-    height: 400px;
+
     background-color: #777777;
+    font-size: 20px;
+    padding-bottom: 20px;
+
+
 }
 
 #right-about {
@@ -116,15 +152,16 @@ h1 {
 .container {
 
     display: flex;
+    padding-top: 40px;
 }
+
 
 
 /*------------------------------------Services*/
 
 .services-heading {
 
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 25px;
     background-color: darkslategray;
     border-radius: 50px;
 }
@@ -132,11 +169,13 @@ h1 {
 #services-main {
 
     background-color: #f30fc9;
+    padding-top: 40px;
 }
 
 #services-container {
 
     display: flex;
+    padding-top: 40px;
 
 
 }
@@ -145,6 +184,7 @@ h1 {
 
 
     width: 33.33%;
+    padding-bottom: 40px;
 
 
 
@@ -167,6 +207,9 @@ table {
 
     margin: 0 auto;
     border-collapse: collapse;
+    padding: 25px;
+
+    margin-top: 40px;
 }
 
 th,
@@ -174,6 +217,7 @@ td {
 
     padding: 1rem;
     font-size: 20px;
+    padding-top: 40px;
 
 }
 
@@ -184,75 +228,184 @@ h3 {
 
 /*------------------------------------Meet the team*/
 
+
 #meet-the-team {
 
-    background-color: #777777
+    background-color: #777777;
+    padding-top: 40px;
+
+
+
 }
+
+
 
 .meet-heading {
 
-    padding-top: 40px;
-    padding-bottom: 40px;
     background-color: darkslategray;
     border-radius: 50px;
+
 }
 
 .table-meet {
 
-    width: 90%;
-
+    width: 75%;
     border-radius: 50px;
-    margin-bottom: 40px;
     background-color: #f30fc9;
+
+
 }
 
 .table-head-meet {
 
     text-align: center;
     font-weight: bold;
-
+    font-size: 32px;
 
 }
 
-.table-data-meet {}
+h1 {
 
-.table-row-meet {}
+
+    padding: 10px;
+    border: 1px solid;
+    margin: 0 auto;
+    width: fit-content;
+
+}
+
+.table-data-meet {
+
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.table-row-meet {
+    text-align: left;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
 
 .blonde-hair {
 
     height: 200px;
+    border-radius: 50px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+
+
 }
 
 .team-text {
 
-    display: inline-block;
+    display: flex;
+    align-items: center;
     margin-left: 30px;
+    position: relative;
+    font-size: 20px;
+
+
 }
 
-.instagram-meet {
+.team-social {
 
-    text-align: center;
+    display: block;
+    position: absolute;
+    bottom: 30px;
+
+
+
 }
+
+.fa-instagram {
+
+    color: white;
+}
+
+
 
 
 /*------------------------------------footer*/
 
 footer {
-    height: 75px;
+    height: 100px;
+    background-color: darkslategray;
 }
 
 .social-networks {
-    text-align: center;
 
+    text-align: center;
 }
 
 .social-networks li {
+
     display: inline;
+
 }
 
 .social-networks i {
+
     font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #f20d0d;
+    color: #f30fc9;
+    padding-bottom: 40px;
+    padding-left: 40px;
+
+}
+
+span.material-icons {
+
+    display: hidden;
+}
+
+/*------------------------------------media-queries*/
+
+@media (max-width: 982px) {
+
+    .hamburger {
+        position: fixed;
+
+        z-index: 99;
+        background: white;
+        border: none;
+        cursor: pointer;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .menu {
+        position: fixed;
+
+        z-index: 100;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100vh;
+
+        list-style: none;
+        background: black;
+        display: flex;
+
+        flex-direction: column;
+
+        transform: translateY(-100%);
+        transition: transform 0.2s ease;
+    }
+
+    .close {
+        position: absolute;
+        border: none;
+        color: white;
+        cursor: pointer;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    /*
+    .table-container {
+
+        overflow: auto;
+    }
 }
