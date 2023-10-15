@@ -9,92 +9,37 @@
 body {
 
     font-family: Exo, sans-serif;
-    color: #000000
+    color: #000000;
 }
-
-/*----------------------colours*/
-body {}
-
-#menu a {
-
-    color: inherit;
-}
-
-
-
-
-
-
-/*----------------------header*/
-
 
 header {
 
 
     background-color: #f651d8;
-    padding-left: 25px;
-
-
-}
-
-h2#logo {
-
-    font-size: 50px;
-    color: #ab9ba8;
-}
-
-#menu {
-
-    font-size: 90%;
-    list-style-type: none;
-    letter-spacing: 1px;
-    color: #000000;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-#logo,
-#menu {
-
-    line-height: 75px;
-    font-size: 25px;
-    margin: 0 auto;
-}
-
-#menu li {
-
-    float: right;
-    margin-right: 25px;
+    width: 100%;
+    display: flex;
 
 }
 
-#menu a {
+h1.logo {
 
-    text-decoration: none;
 
+    font-size: 40px;
 }
 
-#menu a:hover {
+nav li {
 
-    border-bottom: 1px solid;
-
+    display: hidden;
 }
 
-.active {}
+/*-----------------------------------------*/
+.hero-image img {
 
-#hero-image img {
-
-    height: 400px;
+    vertical-align: middle;
+    border-style: none;
     width: 100%;
 
-    object-fit: cover;
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
 }
-
-
 
 
 
@@ -422,7 +367,7 @@ label {
     background-color: #ab9ba8;
     border-radius: 50px;
     width: auto;
-    padding: 40px;
+    padding: 30px;
     height: auto;
     text-align: center;
 
@@ -470,53 +415,118 @@ span.material-icons {
 
 @media (max-width: 982px) {
 
-    .hamburger {
-        position: fixed;
+    header {
 
-        z-index: 99;
-        background: white;
-        border: none;
-        cursor: pointer;
-        top: 1rem;
-        right: 1rem;
+
+        background-color: #f651d8;
+        padding-left: 25px;
+        position: fixed;
+        width: 100%;
+        text-align: center;
+        z-index: 999;
+
     }
 
-    .menu {
-        position: fixed;
+    .nav-toggle {
 
-        z-index: 100;
+        display: none;
+    }
+
+    .nav-toggle-label {
+
+        position: absolute;
         top: 0;
         left: 0;
-        right: 0;
-        bottom: 0;
-        width: 100%;
-        height: 100vh;
-
-        list-style: none;
-        background: black;
+        margin-left: 1em;
+        height: 100%;
         display: flex;
-
-        flex-direction: column;
-
-        transform: translateY(-100%);
-        transition: transform 0.2s ease;
+        align-items: center;
     }
 
-    .close {
+    .nav-toggle-label span,
+    .nav-toggle-label span::before,
+    .nav-toggle.label span::after {
+
+        display: block;
+        background: white;
+        height: 2px;
+        width: 2em;
+        border-radius: 2px;
+        position: relative;
+    }
+
+    .nav-toggle-label span::before,
+    .nav-toggle.label span::after {
+
+        content: '';
         position: absolute;
-        border: none;
-        color: white;
-        cursor: pointer;
-        top: 1rem;
-        right: 1rem;
     }
 
-    #services-main {
+    .nav-toggle-label span::before {
 
-        display: flex;
-        flex-wrap: wrap;
+        bottom: 7px;
+    }
+
+    .nav-toggle-label span::after {
+
+        top: 7px;
+    }
+
+    nav {
+
+        position: absolute;
+        text-align: left;
+        top: 100%;
+        left: 0;
+        background: #f651d8;
+        width: 100%;
+        transform: scale(1, 0);
+        transform-origin: top;
+        transition: 400ms ease-in-out;
+    }
+
+    nav ul {
+
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    nav li {
+
+        margin-bottom: 1em;
+        margin-left: 1em;
+    }
+
+    nav a {
+
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        opacity: 0;
+        transition: opacity 150ms ease-in-out;
+    }
+
+    nav a:hover {
+
+        color: #000000;
+    }
+
+    .nav-toggle:checked~nav {
+
+        transform: scale(1, 1);
+    }
+
+    .nav-toggle:checked~nav a {
+
+        opacity: 1;
+        transition: opacity 250ms ease-in-out 250ms;
     }
 }
+
+
+
 
 /*------------------------------------media-queries hero-image*/
 /*------------------------------------media-queries about*/
@@ -576,5 +586,197 @@ span.material-icons {
     }
 
     /*------------------------------------media-queries contact-and-opening-times-container*/
-    /*------------------------------------media-queries Meet The Team*/
+    @media (max-width: 670px) {
+
+
+        .contact-and-opening-times-container {
+
+            flex-direction: column;
+            padding: 30px;
+
+        }
+
+        .closing {
+
+            margin-top: 30px;
+        }
+
+
+    }
+
     /*------------------------------------media-queries footer*/
+    /*------------------------------------commented out wide screen */
+
+    /*
+            .nav-toggle-label {
+        
+                display: none;
+            }
+        
+            header {
+        
+                display: grid;
+                grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+            }
+        
+            .logo {
+        
+                grid-column: 2 / span 1;
+            }
+        
+            nav {
+        
+                all: unset;
+                grid-column: 3 / 4;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+            }
+        
+            nav ul {
+        
+                display: flex;
+                justify-content: flex-end;
+                border: 1px solid red;
+            }
+        
+            nav li {
+        
+                margin-left: 3em;
+                margin-bottom: 0;
+            }
+        
+            nav a {
+        
+                opacity: 1;
+                position: relative;
+            }
+        
+            nav a::before {
+        
+                content: '';
+                display: block;
+                height: 5px;
+                background: #000 position: absolute;
+                top: -1em;
+                left: 0;
+                right: 0;
+                transform: scale(0, 1);
+                transition: transform ease-in-out 250ms;
+            }
+        
+            nav a:hover::before {
+        
+                transform: scale(1, 1);
+            }
+        } ANOTHER PART
+                header {
+        
+        
+                    background-color: #f651d8;
+                    padding-left: 25px;
+                    position: fixed;
+                    width: 100%;
+                    text-align: center;
+                    z-index: 999;
+        
+                }
+        
+                .nav-toggle {
+        
+                    display: none;
+                }
+        
+                .nav-toggle-label {
+        
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    margin-left: 1em;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                }
+        
+                .nav-toggle-label span,
+                .nav-toggle-label span::before,
+                .nav-toggle.label span::after {
+        
+                    display: block;
+                    background: white;
+                    height: 2px;
+                    width: 2em;
+                    border-radius: 2px;
+                    position: relative;
+                }
+        
+                .nav-toggle-label span::before,
+                .nav-toggle.label span::after {
+        
+                    content: '';
+                    position: absolute;
+                }
+        
+                .nav-toggle-label span::before {
+        
+                    bottom: 7px;
+                }
+        
+                .nav-toggle-label span::after {
+        
+                    top: 7px;
+                }
+        
+                nav {
+        
+                    position: absolute;
+                    text-align: left;
+                    top: 100%;
+                    left: 0;
+                    background: #f651d8;
+                    width: 100%;
+                    transform: scale(1, 0);
+                    transform-origin: top;
+                    transition: 400ms ease-in-out;
+                }
+        
+                nav ul {
+        
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                }
+        
+                nav li {
+        
+                    margin-bottom: 1em;
+                    margin-left: 1em;
+                }
+        
+                nav a {
+        
+                    color: white;
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    text-transform: uppercase;
+                    opacity: 0;
+                    transition: opacity 150ms ease-in-out;
+                }
+        
+                nav a:hover {
+        
+                    color: #000000;
+                }
+        
+                .nav-toggle:checked~nav {
+        
+                    transform: scale(1, 1);
+                }
+        
+                .nav-toggle:checked~nav a {
+        
+                    opacity: 1;
+                    transition: opacity 250ms ease-in-out 250ms;
+                }
+        
+                header*/
