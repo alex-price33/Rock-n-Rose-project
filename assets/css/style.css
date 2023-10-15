@@ -12,10 +12,11 @@ body {
     color: #000000;
 }
 
+/*------------------------------------------------header*/
 header {
 
 
-    background-color: #f651d8;
+    background-color: rgba(246, 81, 216, 1);
     width: 100%;
     display: flex;
 
@@ -23,16 +24,33 @@ header {
 
 h1.logo {
 
-
     font-size: 40px;
+    border: 0;
+}
+
+nav {
+
+    margin-right: 2em;
+
 }
 
 nav li {
 
     display: hidden;
+    list-style: none;
 }
 
-/*-----------------------------------------*/
+nav ul {
+    display: flex;
+}
+
+a {
+    color: #000000;
+    padding-right: 10px;
+
+}
+
+/*-----------------------------------------hero image*/
 .hero-image img {
 
     vertical-align: middle;
@@ -89,6 +107,7 @@ h1 {
     float: left;
     text-align: center;
     margin-right: 10%;
+    margin-bottom: 30px;
 
 }
 
@@ -96,6 +115,7 @@ h1 {
 
     display: flex;
     padding-top: 40px;
+    flex-direction: column;
 }
 
 p {
@@ -116,7 +136,7 @@ p {
 .services-heading {
 
     padding: 25px;
-    background-color: ;
+    /* background-color: ; */
     border-radius: 50px;
 }
 
@@ -253,6 +273,7 @@ h1 {
 
     background-color: #f651d8;
     padding-top: 30px;
+
 }
 
 .contact-us-section h1 {
@@ -264,12 +285,13 @@ h1 {
 .contact-and-opening-times-container {
 
     background-color: #f651d8;
+    padding-bottom: 30px;
 }
 
-    {
+/* {
 
     box-sizing: border-box;
-}
+} */
 
 .contact-us {
 
@@ -420,7 +442,7 @@ span.material-icons {
 
         background-color: #f651d8;
         padding-left: 25px;
-        position: fixed;
+        position: relative;
         width: 100%;
         text-align: center;
         z-index: 999;
@@ -436,7 +458,7 @@ span.material-icons {
 
         position: absolute;
         top: 0;
-        left: 0;
+        right: 0;
         margin-left: 1em;
         height: 100%;
         display: flex;
@@ -486,7 +508,7 @@ span.material-icons {
     }
 
     nav ul {
-
+        flex-direction: column;
         margin: 0;
         padding: 0;
         list-style: none;
@@ -527,8 +549,16 @@ span.material-icons {
 
 
 
+/*------------------------------------media-queries header*/
+@media screen and (min-width: 768px) {
+    header input {
+        display: none;
+    }
+}
 
 /*------------------------------------media-queries hero-image*/
+
+
 /*------------------------------------media-queries about*/
 /*------------------------------------media-queries meet-heading*/
 
@@ -780,3 +810,4 @@ span.material-icons {
                 }
         
                 header*/
+}
