@@ -286,6 +286,9 @@ h1 {
 
     background-color: #f651d8;
     padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 /* {
@@ -295,20 +298,16 @@ h1 {
 
 .contact-us {
 
-    width: 40%;
+
     background-color: #ab9ba8;
     border-radius: 50px;
-
-
 }
 
 .form-area {
 
-
     background-color: #ab9ba8;
     padding: 30px;
     border-radius: 50px;
-
 }
 
 .msg-area {
@@ -324,6 +323,8 @@ h1 {
     background: transparent;
     color: #000000;
     padding: 15px;
+    border: 1px solid darkgray;
+    border-radius: 50px;
 }
 
 .details-area {
@@ -345,6 +346,7 @@ h1 {
 .details-area button {
 
     padding: 1em;
+    border: 1px solid darkgray;
 
 
 }
