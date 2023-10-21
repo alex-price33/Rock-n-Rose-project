@@ -11,21 +11,28 @@ body {
     color: #000000;
 }
 
+h2 {
+    text-align: center;
+}
+
 /*------------------------------------------------header*/
 header {
     background-color: rgba(246, 81, 216, 1);
     width: 100%;
     display: flex;
+    position: fixed;
+    justify-content: space-between;
+    padding: 0px 20px;
 }
 
 h1.logo {
-    font-size: 40px;
     border: 0;
+    padding-left: 5px;
 }
 
 nav {
     margin-right: 5px;
-    padding-top: 22px;
+    padding-top: 20px;
     color: #000000;
 }
 
@@ -37,7 +44,8 @@ nav li {
 nav ul {
 
     display: flex;
-    flex-direction: row
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 a {
@@ -53,15 +61,7 @@ a {
 }
 
 /*------------------------------------special paddings/margins/text*/
-h1 {
-    padding: 10px;
-    border: 1px solid;
-    margin: 0 auto;
-    width: fit-content;
-    border-radius: 100px;
-    font-size: 24px;
-    background-color: #f651d8;
-}
+
 
 .services-section {
     background-color: #f651d8;
@@ -102,12 +102,8 @@ p {
 /*------------------------------------Services*/
 .services-section h2 {
     padding: 10px;
-    border: 1px solid;
     margin: 0 auto;
-    width: fit-content;
-    border-radius: 50px;
-    background-color: #ab9ba8;
-    font-size: 24px;
+    text-align: center;
 }
 
 .services-section {
@@ -138,12 +134,14 @@ p {
 .right-brows {
     background-color: #ab9ba8;
     border-radius: 50px;
+    text-align: center;
     padding: 30px;
 }
 
 .lashes {
     background-color: #ab9ba8;
     border-radius: 50px;
+    text-align: center;
     padding: 30px;
 }
 
@@ -161,11 +159,6 @@ td {
 h3 {
     text-align: center;
     padding: 10px;
-    border: 1px solid;
-    margin: 0 auto;
-    width: fit-content;
-    border-radius: 50px;
-    background-color: #f651d8;
 
 }
 
@@ -177,12 +170,6 @@ h1 {
 .meet-the-team-section h2 {
 
     padding: 10px;
-    border: 1px solid;
-    margin: 0 auto;
-    width: fit-content;
-    border-radius: 100px;
-    font-size: 24px;
-    background-color: #f651d8;
 
 }
 
@@ -258,12 +245,7 @@ h1 {
 .contact-us-heading {
 
     padding: 10px;
-    border: 1px solid;
-    margin: 0 auto;
-    width: fit-content;
-    border-radius: 50px;
-    background-color: #ab9ba8;
-    font-size: 24px;
+
 }
 
 
@@ -330,7 +312,7 @@ h1 {
     background: transparent;
     color: #000000;
     padding: 15px;
-    border: 1px solid darkgray;
+    border: 1px solid black;
     border-radius: 50px;
     margin-bottom: 30px;
     width: 90%;
@@ -355,7 +337,7 @@ h1 {
 .details-area button {
 
     padding: 1em;
-    border: 1px solid darkgray;
+    border: 1px solid black;
 
 
 }
@@ -435,7 +417,7 @@ span.material-icons {
     header {
         background-color: #f651d8;
         padding-left: 25px;
-        position: relative;
+        position: fixed;
         width: 100%;
         text-align: center;
         z-index: 999;
@@ -448,8 +430,8 @@ span.material-icons {
     .nav-toggle-label {
         position: absolute;
         top: 0;
-        left: 0;
-        margin-left: 1em;
+        right: 0;
+        margin-right: 1em;
         height: 100%;
         display: flex;
         align-items: center;
@@ -459,7 +441,7 @@ span.material-icons {
     .nav-toggle-label span::before,
     .nav-toggle.label span::after {
         display: block;
-        background: white;
+        background: black;
         height: 2px;
         width: 2em;
         border-radius: 2px;
@@ -528,7 +510,7 @@ span.material-icons {
 }
 
 /*------------------------------------media-queries header*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 782px) {
     header input {
         display: none;
     }
@@ -580,21 +562,28 @@ span.material-icons {
         padding-left: 30px;
         margin-top: 30px;
     }
+}
 
-    /*------------------------------------media-queries contact-and-opening-times-container*/
-    @media (max-width: 670px) {
-        .contact-and-opening-times-container {
-            flex-direction: column;
-            padding: 30px;
-        }
-
-        .closing {
-            margin-top: 30px;
-            margin-left: 30px;
-            width: auto;
-        }
-
-        .contact-us {
-            width: auto;
-        }
+/*------------------------------------media-queries contact-and-opening-times-container*/
+@media (max-width: 670px) {
+    .contact-and-opening-times-container {
+        flex-direction: column;
+        padding: 30px;
     }
+
+    .closing {
+        margin-top: 30px;
+        margin-left: 30px;
+        width: auto;
+    }
+
+    .contact-us {
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 782px) {
+    header label {
+        display: none;
+    }
+}
