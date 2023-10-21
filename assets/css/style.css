@@ -30,7 +30,7 @@ nav {
 }
 
 nav li {
-    display: none;
+
     list-style: none;
 }
 
@@ -323,7 +323,6 @@ h1 {
 
     display: flex;
     flex-direction: column;
-    margin-right: 30px;
 }
 
 .msg-area>textarea {
@@ -333,8 +332,8 @@ h1 {
     padding: 15px;
     border: 1px solid darkgray;
     border-radius: 50px;
-    margin-right: 30px;
     margin-bottom: 30px;
+    width: 90%;
 }
 
 .details-area {
@@ -591,14 +590,11 @@ span.material-icons {
 
         .closing {
             margin-top: 30px;
-
             margin-left: 30px;
+            width: auto;
         }
 
         .contact-us {
-
-            width: 90%;
+            width: auto;
         }
     }
-
-    /*------------------------------------media-queries footer*/
