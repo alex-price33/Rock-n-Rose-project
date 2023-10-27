@@ -1,0 +1,14 @@
+# Rock and Rose- TESTING
+
+
+## CONTENTS
+
+### HTML validator
+
+- Index html page has zero warning or errors
+
+![index Html](./assets/readme-assets/w3c-html-testing.png)
+
+### CSS validator
+
+![css](./assets/readme-assets/w3c-css-testing.png)
