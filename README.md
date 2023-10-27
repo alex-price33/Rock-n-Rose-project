@@ -66,6 +66,17 @@ _Main color palette_
 
 ![navigation_bar](./assets/readme-assets/navbar-img.pdf)
 
+* **Hero image**
+  * Ive used a hero image underneath my navbar as i found it looks better to break up the information on my page and the colors in the image match the color profile in my design.
+
+![hero_image](./assets/readme-assets/model-photo2.png)
+
+* **About**
+ * In the about section the about a brief introduction to when the shop was opened and what they are trying to achieve
+  * underneath the about is a why us and that is to persuade the customer to use the salon.
+
+![about_section](./assets/readme-assets/about-section.png)
+
 
 
 
