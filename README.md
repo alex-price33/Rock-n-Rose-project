@@ -100,6 +100,13 @@ _Main color palette_
 
 ![footer_section](./assets/readme-assets/footer-section.png)
 
+### Features Left to Implement
+In the future, 
+* I would like to add a book online form where the user can see available dates and have a link for a deposit to be paid.
+* I would like to make the contact form functional.
+* I would like to add a phot gallery with different images of clients and there chosen procedures.
+* I would like to improve the performance of the website.
+
 
 
 

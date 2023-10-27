@@ -53,6 +53,12 @@ a {
     padding-right: 10px;
 }
 
+.hvr-sweep-to-bottom::before {
+
+    background: #ab9ba8;
+    height: auto;
+}
+
 /*-----------------------------------------hero image*/
 .hero-image img {
     vertical-align: middle;
