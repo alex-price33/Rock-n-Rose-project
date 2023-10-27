@@ -77,6 +77,17 @@ _Main color palette_
 
 ![about_section](./assets/readme-assets/about-section.png)
 
+* **Services**
+* This is the services section containg all services provided by the salon and is split into three categories.
+* Nails: what nail services are offered and the price of the treatment.
+* Brows: what eyebrow services are offered and the price of the treatment.
+* Lashes: what lash services are offered and the price of the treatment.
+
+![services_section](./assets/readme-assets/services-section.png)
+
+
+
+
 
 
 
