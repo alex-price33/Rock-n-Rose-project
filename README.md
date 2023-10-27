@@ -95,6 +95,11 @@ _Main color palette_
 
 ![contact_section](./assets/readme-assets/contact-section.png)
 
+* **Footer**
+* Ive also added a footer containg social media links.
+
+![footer_section](./assets/readme-assets/footer-section.png)
+
 
 
 
