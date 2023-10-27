@@ -44,11 +44,27 @@ The wireframe is designed using Balsamiq software. The first draft was edited wi
  [View wire frames here](./assets/readme-assets/balsamic-wireframe.pdf)
 
  ### Surface
-I have chosen a simplistic two color approach.
+I have chosen a simplistic three color approach.ive used black text and interchanged the background colors from a pink to a gray.
 
 _Main color palette_
 
 ![Main color Palette](./assets/readme-assets/rose-color-palette.pdf)
+
+## Technologies
+1. HTML - To create a basic site
+2. CSS - To create a nice, standout front-end and to give a great user experience
+3. Balsamiq - To create a wireframe
+
+## Features
+### Existing Features
+* **Navigation Bar**
+  * The navigation bar is at the top of the page, and it is fixed to the top. The logo is in the left-hand corner of the navigation,
+
+  * The other navigation links on the website are to the right. About, Service, Meet the team and Contact connect to different sections of the same page.
+
+  * The font color is the same as all other font colors on page to keep in consistency. The hover effect is used for navigation, so the user can know which page they are on.
+
+![navigation_bar](./assets/readme-assets/navbar-img.pdf)
 
 
 
