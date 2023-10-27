@@ -85,6 +85,17 @@ _Main color palette_
 
 ![services_section](./assets/readme-assets/services-section.png)
 
+* **Meet the team**
+* This is the the team section and is split into two boxes with a profile of the staff and what services they provide.
+
+![meet_section](./assets/readme-assets/meet-section.png)
+
+* **Contact us**
+* This is the contact us section containing a form for the customer to fill out with there details .it also contains an opening times container with some basic information.
+
+![contact_section](./assets/readme-assets/contact-section.png)
+
+
 
 
 
