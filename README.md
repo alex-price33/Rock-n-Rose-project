@@ -107,7 +107,43 @@ In the future,
 * I would like to add a phot gallery with different images of clients and there chosen procedures.
 * I would like to improve the performance of the website.
 
+# Rock and Rose- TESTING
 
+
+## CONTENTS
+
+### HTML validator
+
+- Index html page has zero warning or errors
+
+![index Html](./assets/readme-assets/w3c-html-testing.png)
+
+### CSS validator
+
+- style css page has zero warning or errors
+![css](./assets/readme-assets/w3c-css-testing.png)
+
+* **Accessibility**
+  -I confirmed that the colors and fonts chosen are easy to read and accessible by running it through [Lighthouse DevTools](./assets/readme-assets/lighthouse-dev-tools.png)
+
+### Mobile testing
+
+  - I ran my website through lighthouse with the mobile setting.
+ [Lighthouse DevTools](./assets/readme-assets/lighthouse-dev-tools.png)
+
+### Desktop testing
+
+ I ran my website through lighthouse with the desktop setting.
+ [Lighthouse DevTools](./assets/readme-assets/lighthouse-desktop.png)
+
+### Bugs
+
+* **Solved bugs**
+When i was styling my navbar toggle i came across an issue 
+
+* **Unfixed bugs**
+
+When I checked my site on a samsung galaxy fold i found the navbar and logo were to close together and the image container was to big in the meet the team section of my website.
 
 
 
