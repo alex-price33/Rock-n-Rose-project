@@ -79,7 +79,7 @@ I have chosen a simplistic three color approach.ive used black text and intercha
 
 _Main color palette_
 
-![Main color Palette](./assets/readme-assets/rose-color-palette.pdf)
+![Main color Palette](./assets/readme-assets/color-palette1.png)
 
 ## Technologies
 1. HTML - To create a basic site
@@ -95,7 +95,7 @@ _Main color palette_
 
   * The font color is the same as all other font colors on page to keep in consistency. The hover effect is used for navigation, so the user can know which page they are on.
 
-![navigation_bar](./assets/readme-assets/navbar-img.pdf)
+![navigation_bar](./assets/readme-assets/navbar-img.png)
 
 * **Hero image**
   * Ive used a hero image underneath my navbar as i found it looks better to break up the information on my page and the colors in the image match the color profile in my design.
