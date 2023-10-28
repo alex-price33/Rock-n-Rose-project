@@ -4,11 +4,13 @@
 
  [Link to live site here](https://alex-price33.github.io/Rock-n-Rose-project/)
 
+ ![Website look on different devices](./assets/readme-assets/responsive-image1.png)
+
 This website has been created to show my ability to design and create a website using html and CSS.
 
 Rock and Rose has been created to show a functioning website that allows the user to meet the staff, learn about the company and find out what services Rock and Rose offers to the customer.
 
-![Am I responsive image](./assets/readme-assets/responsive-image.png)
+
 
 # Table of Contents
 
@@ -186,8 +188,26 @@ In the future,
   
   - The deployed site will update automatically upon new commits to the master branch.
 
+## Credits
 
+### Code Used
 
+- Most of the code in this project was written my myself, references to previous tutorials have been made with some of the code also, weather thats remembering a syntax, or re jogging my memory.
 
+- I had to take code from the following sources below.
 
+- For the image container i used the the [LoveRunning](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/6eb8cfc87bfd434a87861a844e00b655/)
+
+- For my navbar toggle i took some inspiration from [KevinPowell](https://www.youtube.com/watch?v=8QKOaTYvYUA&t=846s) and altered the code to suit what i wanted from youtube video.
+
+- For my footer i used some of the code from my [LoveRunning](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/cbb28fc16a35417bb73450e0dc71d59b/) and again altered it to suit my specific requirements.
+
+### Media
+The imge used as a background image is taken from [google](https://www.google.co.uk/search?sca_esv=577486022&sxsrf=AM9HkKnFbScP0U7hcMKS11zcT-LYt4jNTw:1698520928540&q=grey+and+pink+model+with+nails&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiY99rEu5mCAxXISUEAHZYXCsQQ0pQJegQIDBAB&biw=1271&bih=654&dpr=1)
+
+### Acknowledgements
+* The the Code Institute tutor support team for helping me with the correct guidance.
+* My mentor, Medale Oluwafemi, for his invaluable guidance.
+* My fellow student, Craig Hudson_lead for his help in assisting me.
+* Al other members of the slack community.
 
