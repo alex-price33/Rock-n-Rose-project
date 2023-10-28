@@ -2,19 +2,21 @@
 
 ## Code Institute - First Milestone Project: User Centric Frontend Development.
 
-[Link to live site here](https://github.com/alex-price33/Rock-n-Rose-project.git)
+ [Link to live site here](https://alex-price33.github.io/Rock-n-Rose-project/)
 
 This website has been created to show my ability to design and create a website using html and CSS.
 
 Rock and Rose has been created to show a functioning website that allows the user to meet the staff, learn about the company and find out what services Rock and Rose offers to the customer.
 
+![Am I responsive image](./assets/readme-assets/responsive-image.png)
+
 # Table of Contents
 
-- [Rock and Rose ](#ADD LINK TO DEPLOYED WEBSITE)
+- [Rock and Rose Nail Salon](https://alex-price33.github.io/Rock-n-Rose-project/)
   - [Code Institute - First Milestone Project: User Centric Frontend Development.](#code-institute---first-milestone-project-user-centric-frontend-development)
 - [Table of Contents](#table-of-contents)
   - [Demo](#demo)
-    - [A live demo to the website can be found here](#a-live-demo-to-the-website-can-be-found-here)
+    - [A live demo to the website can be found here](https://alex-price33.github.io/Rock-n-Rose-project/)
   - [UX](#ux)
   - [User stories](#user-stories)
     - [Strategy](#strategy)
