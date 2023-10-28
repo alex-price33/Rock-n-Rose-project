@@ -569,6 +569,18 @@ span.material-icons {
     }
 }
 
+@media (max-width: 300px) {
+
+    .image-container {
+        width: 175px;
+        height: 175px;
+        border-radius: 50%;
+    }
+}
+
+
+
+
 /*------------------------------------media-queries contact-and-opening-times-container*/
 @media (max-width: 670px) {
     .contact-and-opening-times-container {

@@ -8,6 +8,33 @@ This website has been created to show my ability to design and create a website 
 
 Rock and Rose has been created to show a functioning website that allows the user to meet the staff, learn about the company and find out what services Rock and Rose offers to the customer.
 
+# Table of Contents
+
+- [Rock and Rose ](#ADD LINK TO DEPLOYED WEBSITE)
+  - [Code Institute - First Milestone Project: User Centric Frontend Development.](#code-institute---first-milestone-project-user-centric-frontend-development)
+- [Table of Contents](#table-of-contents)
+  - [Demo](#demo)
+    - [A live demo to the website can be found here](#a-live-demo-to-the-website-can-be-found-here)
+  - [UX](#ux)
+  - [User stories](#user-stories)
+    - [Strategy](#strategy)
+    - [Scope](#scope)
+    - [Structure](#structure)
+    - [Skeleton](#skeleton)
+    - [Surface](#surface)
+  - [Technologies](#technologies)
+  - [Features](#features)
+    - [Existing Features](#existing-features)
+    - [Features Left to Implement](#features-left-to-implement)
+  - [Testing](#testing)
+    - [Validator Testing](#validator-testing)
+    - [Bugs](#bugs)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+    - [Acknowledgements](#acknowledgements)
+
 ## User Experience (UX)
 There are two main groups this website is targetting.Its is aimed at current clients and possibly new clients who have came across the website while online.The site is made to be simple and easy to navigate.
 
@@ -139,11 +166,23 @@ In the future,
 ### Bugs
 
 * **Solved bugs**
-When i was styling my navbar toggle i came across an issue 
+* When i checked my site on a samsung galaxy fold i noticed the image containers in the meet the team section were to large for their containers.this was a simple fix of shortening the heights and widths to fit their containers.
 
 * **Unfixed bugs**
 
-When I checked my site on a samsung galaxy fold i found the navbar and logo were to close together and the image container was to big in the meet the team section of my website.
+* When I checked my site on a samsung galaxy fold i found the navbar and logo were to close together and the image container was to big in the meet the team section of my website.
+
+* When I checked my site on a samsung galaxy fold in the opening times section the email address is to large for its container .
+
+## Deployment
+* The site was deployed to Git Hub pages using the following steps:
+  * In the Github repository, the Stetting tab.
+  * Under General, navigate to Code and Automation and select 'Pages'.
+  * In the Build and Deployment section for Source, select 'Deploy from a branch' from the drop-down list.
+  * For Branch, select 'main' from the drop-down list and Save.
+  * On the top of the page, the link to the complete website is provided.
+  
+  - The deployed site will update automatically upon new commits to the master branch.
 
 
 
