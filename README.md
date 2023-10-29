@@ -160,12 +160,12 @@ In the future,
 ### Mobile testing
 
   - I ran my website through lighthouse with the mobile setting.
- [Lighthouse DevTools](./assets/readme-assets/lighthouse-dev-tools.png)
+ [Lighthouse DevTools](./assets/readme-assets/mobile.png)
 
 ### Desktop testing
 
  I ran my website through lighthouse with the desktop setting.
- [Lighthouse DevTools](./assets/readme-assets/lighthouse-desktop.png)
+ [Lighthouse DevTools](./assets/readme-assets/lighthouse.png)
 
 ### Bugs
 
