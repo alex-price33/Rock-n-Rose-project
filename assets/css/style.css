@@ -355,6 +355,7 @@ h1 {
     padding: 15px 50px;
     border-radius: 50px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 label {

@@ -95,7 +95,7 @@ _Main color palette_
 
   * The font color is the same as all other font colors on page to keep in consistency. The hover effect is used for navigation, so the user can know which page they are on.
 
-![navigation_bar](./assets/readme-assets/navbar-img.png)
+![navigation_bar](./assets/readme-assets/navbar-image1.png)
 
 * **Hero image**
   * Ive used a hero image underneath my navbar as i found it looks better to break up the information on my page and the colors in the image match the color profile in my design.
@@ -103,40 +103,40 @@ _Main color palette_
 ![hero_image](./assets/readme-assets/model-photo2.png)
 
 * **About**
- * In the about section the about a brief introduction to when the shop was opened and what they are trying to achieve
-  * underneath the about is a why us and that is to persuade the customer to use the salon.
+  * In the about section the about a brief introduction to when the shop was opened and what they are trying to achieve
+  * Underneath the about is a why us and that is to persuade the customer to use the salon.
 
 ![about_section](./assets/readme-assets/about-section.png)
 
 * **Services**
-* This is the services section containg all services provided by the salon and is split into three categories.
-* Nails: what nail services are offered and the price of the treatment.
-* Brows: what eyebrow services are offered and the price of the treatment.
-* Lashes: what lash services are offered and the price of the treatment.
+  * This is the services section containg all services provided by the salon and is split into three categories.
+  * Nails: what nail services are offered and the price of the treatment.
+  * Brows: what eyebrow services are offered and the price of the treatment.
+  * Lashes: what lash services are offered and the price of the treatment.
 
 ![services_section](./assets/readme-assets/services-section.png)
 
 * **Meet the team**
-* This is the the team section and is split into two boxes with a profile of the staff and what services they provide.
+  * This is the the team section and is split into two boxes with a profile of the staff and what services they provide.
 
 ![meet_section](./assets/readme-assets/meet-section.png)
 
 * **Contact us**
-* This is the contact us section containing a form for the customer to fill out with there details .it also contains an opening times container with some basic information.
+  * This is the contact us section containing a form for the customer to fill out with there details .it also contains an opening times container with some basic information.
 
 ![contact_section](./assets/readme-assets/contact-section.png)
 
 * **Footer**
-* Ive also added a footer containg social media links.
+  * Ive also added a footer containg social media links.
 
 ![footer_section](./assets/readme-assets/footer-section.png)
 
 ### Features Left to Implement
 In the future, 
-* I would like to add a book online form where the user can see available dates and have a link for a deposit to be paid.
-* I would like to make the contact form functional.
-* I would like to add a phot gallery with different images of clients and there chosen procedures.
-* I would like to improve the performance of the website.
+  * I would like to add a book online form where the user can see available dates and have a link for a deposit to be paid.
+  * I would like to make the contact form functional.
+  * I would like to add a phot gallery with different images of clients and there chosen procedures.
+  * I would like to improve the performance of the website.
 
 # Rock and Rose- TESTING
 
@@ -170,21 +170,21 @@ In the future,
 ### Bugs
 
 * **Solved bugs**
-* When i checked my site on a samsung galaxy fold i noticed the image containers in the meet the team section were to large for their containers.this was a simple fix of shortening the heights and widths to fit their containers.
+  * When i checked my site on a samsung galaxy fold i noticed the image containers in the meet the team section were to large for their containers.this was a simple fix of shortening the heights and widths to fit their containers.
 
 * **Unfixed bugs**
 
-* When I checked my site on a samsung galaxy fold i found the navbar and logo were to close together and the image container was to big in the meet the team section of my website.
+  * When I checked my site on a samsung galaxy fold i found the navbar and logo were to close together and the image container was to big in the meet the team section of my website.
 
-* When I checked my site on a samsung galaxy fold in the opening times section the email address is to large for its container .
+  * When I checked my site on a samsung galaxy fold in the opening times section the email address is to large for its container .
 
 ## Deployment
 * The site was deployed to Git Hub pages using the following steps:
-  * In the Github repository, the Stetting tab.
-  * Under General, navigate to Code and Automation and select 'Pages'.
-  * In the Build and Deployment section for Source, select 'Deploy from a branch' from the drop-down list.
-  * For Branch, select 'main' from the drop-down list and Save.
-  * On the top of the page, the link to the complete website is provided.
+    * In the Github repository, the Stetting tab.
+    * Under General, navigate to Code and Automation and select 'Pages'.
+    * In the Build and Deployment section for Source, select 'Deploy from a branch' from the drop-down list.
+    * For Branch, select 'main' from the drop-down list and Save.
+    * On the top of the page, the link to the complete website is provided.
   
   - The deployed site will update automatically upon new commits to the master branch.
 
@@ -206,8 +206,8 @@ In the future,
 The imge used as a background image is taken from [google](https://www.google.co.uk/search?sca_esv=577486022&sxsrf=AM9HkKnFbScP0U7hcMKS11zcT-LYt4jNTw:1698520928540&q=grey+and+pink+model+with+nails&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiY99rEu5mCAxXISUEAHZYXCsQQ0pQJegQIDBAB&biw=1271&bih=654&dpr=1)
 
 ### Acknowledgements
-* The the Code Institute tutor support team for helping me with the correct guidance.
-* My mentor, Medale Oluwafemi, for his invaluable guidance.
-* My fellow student, Craig Hudson_lead for his help in assisting me.
-* Al other members of the slack community.
+  * The the Code Institute tutor support team for helping me with the correct guidance.
+  * My mentor, Medale Oluwafemi, for his invaluable guidance.
+  * My fellow student, Craig Hudson_lead for his help in assisting me.
+  * Al other members of the slack community.
 
