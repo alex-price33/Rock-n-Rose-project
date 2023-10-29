@@ -145,7 +145,7 @@ In the future,
 
 ### HTML validator
 
-- Index html page has zero warning or errors
+- Index html page has zero warning or errors.
 
 ![index Html](./assets/readme-assets/w3c-html-testing.png)
 
@@ -155,17 +155,17 @@ In the future,
 ![css](./assets/readme-assets/w3c-css-testing.png)
 
 * **Accessibility**
-  -I confirmed that the colors and fonts chosen are easy to read and accessible by running it through [Lighthouse DevTools](./assets/readme-assets/lighthouse-dev-tools.png)
+  -I confirmed that the colors and fonts chosen are easy to read and accessible by running it through Lighthouse.
 
 ### Mobile testing
 
   - I ran my website through lighthouse with the mobile setting.
- [Lighthouse DevTools](./assets/readme-assets/mobile.png)
+ ![Lighthouse DevTools mobile](./assets/readme-assets/mobile.png)
 
 ### Desktop testing
 
- I ran my website through lighthouse with the desktop setting.
- [Lighthouse DevTools](./assets/readme-assets/lighthouse.png)
+ -I ran my website through lighthouse with the desktop setting.
+ ![Lighthouse DevTools desktop](./assets/readme-assets/lighthouse.png)
 
 ### Bugs
 
